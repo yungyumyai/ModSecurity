@@ -94,7 +94,7 @@ class RuleMessage {
     int m_accuracy;
     std::shared_ptr<std::string> m_clientIpAddress;
     std::string m_data;
-    std::string m_id;
+    std::shared_ptr<std::string> m_id;
     bool m_isDisruptive;
     std::string m_match;
     int m_maturity;
